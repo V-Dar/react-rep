@@ -1,9 +1,11 @@
 import React from "react";
 
-const HeaderItem = () => {
+const HeaderItem = (props) => {
     return (
         <div>
-            <h1 className='h1-style m-3'>Какие-то карточки с картинками</h1>
+            <h1 className='h1-style m-3'>
+                {props.headerText}
+            </h1>
         </div>
     );
 }
