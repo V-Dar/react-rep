@@ -5,6 +5,6 @@ import HomePage from './Layout/HomePage.jsx'
 import MyComponents from './Layout/Hooks/MyComponents.jsx'
 
 createRoot(document.getElementById('root')).render(
-  // <HomePage></HomePage>
-  <MyComponents></MyComponents>
+  <HomePage></HomePage>
+  // <MyComponents></MyComponents>
 )
